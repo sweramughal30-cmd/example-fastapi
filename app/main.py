@@ -30,8 +30,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World swera u can do it"}
-
+    return {"message": "bind mount works!ddddd!!!!!"}
 
 
 
